@@ -1,1 +1,1 @@
-# Mushroom_Machine_Learning_Project
+# Diabetes_Machine_Learning_Project
