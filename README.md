@@ -1,6 +1,6 @@
 # Diabetes Machine Learning Project
 
-![GitHub Logo]([https://d1m75rqqgidzqn.cloudfront.net/images/logo.png](https://medlineplus.gov/images/Diabetes_share.jpg)) Format: ![Alt Text](url) 
+![GitHub Logo](https://medlineplus.gov/images/Diabetes_share.jpg)
 
 ## Objective
 Diabetes affects almost 40 million people in the US alone. A good predictive model based on patient demographics can help doctors and patients with early intervention and preventative treatments. 
