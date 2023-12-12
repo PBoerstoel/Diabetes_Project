@@ -14,5 +14,8 @@ A database was created in SQL which was then conected to a pytho notebook using 
 ## Results
 The final predictive model scored an accuracy of 75% on the testing data. 
 
+Code used to generate performance metrics:
+https://datascience.stackexchange.com/questions/45165/how-to-get-accuracy-f1-precision-and-recall-for-a-keras-model
+
 ## About the files 
 
