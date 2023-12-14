@@ -6,10 +6,12 @@
 Diabetes affects almost 40 million people in the US alone. A good predictive model based on patient demographics can help doctors and patients with early intervention and preventative treatments. 
 
 ## Data
-Data was retrieved from (https://www.kaggle.com/datasets/julnazz/diabetes-health-indicators-dataset) and came with 3 datasets; 2 unbalanced and 1 balanced. The balanced one was chosen to optimize for model accuracy. 
+Data was retrieved from (https://www.kaggle.com/datasets/julnazz/diabetes-health-indicators-dataset) and came with 3 datasets; 2 unbalanced and 1 balanced. The balanced one was chosen to optimize for model accuracy and to ensure that our predictions actually predicted diabetes.
 
 ## Methods
-A database was created in SQL which was then conected to a python notebook using SQLite. Using numpy, pandas, and seaborn, the data was assessed and visualized. Next, a tensorflow model was created to predict outcome of Diabetes.  
+A database was created in SQL which was then conected to a python notebook using SQLite. Using numpy, pandas, and seaborn, the data was assessed and visualized. Next, a tensorflow model was created to predict outcome of Diabetes.
+
+We cleaned the data with pandas, including changing datatypes to be the correct types, as well as dropping some columns. We then attempted a logistic regression with sklearn, but could not reach the desired accuracy. After that, we used a tensorflow neural network. Our final model had 2 hidden layers, a 120 neuron sigmoid one, and a 600 neuron relu one. The output layer was sigmoid as well. We ran it for 20 epochs.
 
 ## Results
 The final predictive model scored an accuracy of 75% on the testing data. 
