@@ -27,3 +27,5 @@ The main csv we used was diabetes_binary_5050split_health_indicators_BRFSS2021.c
 Converting to sqlite involved using the sqlite_conversion.ipynb.
 
 There is also the diabetes_database.sqlite file, which is the sqlite database we linked to. Of note, if running in colab, this should be uploaded to the temporary folder and it should work with the notebook as is. Otherwise you'll have to change the relevant paths.
+
+Finally, there model_versions.csv. This stores our previous model attempts as well as relevant information about them.
