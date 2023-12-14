@@ -20,7 +20,7 @@ Code used to generate performance metrics:
 https://datascience.stackexchange.com/questions/45165/how-to-get-accuracy-f1-precision-and-recall-for-a-keras-model
 
 ## About the files 
-The notebook used to get the final model was the Cl_Diabetes_Colab_75.ipynb. In it, we have 3 models that all reach 75%. We also exported images of the setups and results in the results folder. 
+The notebook used to get the final model was the Cl_Diabetes_Colab_75.ipynb. In it, we have 3 models that all reach 75%, though we settled on the third neural network model, as it hit our target the most consistently. We also exported images of the setups and results in the results folder. 
 
 The main csv we used was diabetes_binary_5050split_health_indicators_BRFSS2021.csv. This is a pre-balanced version of the data provided by the original uploaders. It makes it so each class has equal numbers of entries.
 
