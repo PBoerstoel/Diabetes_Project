@@ -1,0 +1,10 @@
+Model version #,Data Transformation,Accuracy,Optimizer,Number of epochs,number of hidden layers,layer 1 neurons/activation,layer 2 neurons/activation,layer 3 neurons/activation,layer 4 neurons/activation,layer 5 neurons/activation,layer 6 neurons/activation
+1,No,74.1,RMSprop,15,3,200 - relu,200 - relu,100 - relu,,,
+2,Yes,74.1,Adamax,15,2,200 - relu,200 - relu,,,,
+3,No,74.5,Adamax,20,2,120 - sigmoid,600 - relu,,,,
+4,Yes,48.9,Adam,15,3,40 - relu,20 - relu,3 - relu,,,
+5,Yes,74.7,Adamax,20,3,50 - relu,30 - sigmoid,10 - relu,,,
+6,No,74.8,Adam,15,3,50 - relu,25 - relu,5 - relu ,,,
+7,Yes,74.6,Adamax,20,2,40 - relu,20 - relu,,,,
+8,No,72.3,Adam,50,3,100 - relu,50 - relu ,10 - relu,,,
+9,Yes,75.01,Adamax,20,2,120 - sigmoid,600 - relu,,,,
