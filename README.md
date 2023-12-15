@@ -30,6 +30,6 @@ There is also the diabetes_database.sqlite file, which is the sqlite database we
 
 Diabetes_Visualizations.ipynb was used to create various visualizations of the data to use in our presentation.
 
-Finally, there model_versions.csv. This stores our previous model attempts as well as relevant information about them.
+Finally, there is model_versions.csv. This stores our previous model attempts as well as relevant information about them.
 
-Also, our presentation on the topic used these slides: https://docs.google.com/presentation/d/1XVmiG7ADDWuanjo3BKuJuFS_j21YYahF_4mV3CqQp64/edit#slide=id.g2a5dc60fd00_0_10
+Our presentation on the topic used these slides: https://docs.google.com/presentation/d/1XVmiG7ADDWuanjo3BKuJuFS_j21YYahF_4mV3CqQp64/edit#slide=id.g2a5dc60fd00_0_10
